@@ -1,0 +1,7 @@
+---
+deployment:
+      taks: 
+         - export DEPLOYPATH=/home/ratchuco/public_html/
+         - /bin/cp index.html $DEPLOYPATH
+         - /bin/cp style.css $DEPLOYPATH
+         
